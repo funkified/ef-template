@@ -1,4 +1,4 @@
-type HeroProps = {
+qtype HeroProps = {
   config: {
     headline: string
     subheadline: string
@@ -7,7 +7,7 @@ type HeroProps = {
 }
 
 export default function Hero({ config }: HeroProps) {
-  const phoneNumber = "17871234567" // ← CAMBIA ESTE NÚMERO (sin +, sin espacios)
+  const phoneNumber = "17875299283" // ← CAMBIA ESTE NÚMERO (sin +, sin espacios)
 
   return (
     <section className="relative text-white text-center py-32 px-6 overflow-hidden">
